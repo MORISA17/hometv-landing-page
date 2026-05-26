@@ -48,10 +48,6 @@ export default function Hero() {
 
           {/* TEXT SMALL */}
           <p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ duration: 0.5 }}
-            viewport={{ once: true }}
             className="
               uppercase
               tracking-[4px]
@@ -66,10 +62,6 @@ export default function Hero() {
 
           {/* TITLE */}
           <h1
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ duration: 0.6 }}
-            viewport={{ once: true }}
             className="
               text-4xl
               sm:text-5xl
@@ -97,10 +89,6 @@ export default function Hero() {
 
           {/* DESCRIPTION */}
           <p
-            initial={{ opacity: 0 }}
-            whileInView={{ opacity: 1 }}
-            transition={{ delay: 0.2 }}
-            viewport={{ once: true }}
             className="
               text-gray-600
               mt-8
@@ -117,10 +105,6 @@ export default function Hero() {
 
           {/* BUTTONS */}
           <div
-            initial={{ opacity: 0, y: 20 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            transition={{ delay: 0.3 }}
-            viewport={{ once: true }}
             className="
               mt-10
               flex
@@ -190,10 +174,6 @@ export default function Hero() {
 
           {/* IMAGE */}
           <div
-            initial={{ opacity: 0, x: 40 }}
-            whileInView={{ opacity: 1, x: 0 }}
-            transition={{ duration: 0.8 }}
-            viewport={{ once: true }}
             className="relative z-10"
           >
 
