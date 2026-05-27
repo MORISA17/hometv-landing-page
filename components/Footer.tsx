@@ -8,7 +8,7 @@ export default function Footer() {
         </h2>
 
         <p className="text-gray-400">
-          © 2025 HomeTV. All rights reserved.
+          © 2026 HomeTV. All rights reserved.
         </p>
       </div>
     </footer>
