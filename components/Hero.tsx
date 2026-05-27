@@ -47,7 +47,11 @@ export default function Hero() {
         <div>
 
           {/* TEXT SMALL */}
-          <p
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ duration: 0.5 }}
+            viewport={{ once: true }}
             className="
               uppercase
               tracking-[4px]
@@ -58,10 +62,14 @@ export default function Hero() {
             "
           >
             Mari Gabung Menjadi Mitra HomeTV
-          </p>
+          </motion.p>
 
           {/* TITLE */}
-          <h1
+          <motion.h1
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
             className="
               text-4xl
               sm:text-5xl
@@ -85,10 +93,14 @@ export default function Hero() {
             >
               Full Server Indonesia
             </span>
-          </h1>
+          </motion.h1>
 
           {/* DESCRIPTION */}
-          <p
+          <motion.p
+            initial={{ opacity: 0 }}
+            whileInView={{ opacity: 1 }}
+            transition={{ delay: 0.2 }}
+            viewport={{ once: true }}
             className="
               text-gray-600
               mt-8
@@ -101,10 +113,14 @@ export default function Hero() {
             Streaming stabil, ringan, tanpa buffering,
             support berbagai perangkat dan sistem operasi
             dengan kualitas premium 24/7.
-          </p>
+          </motion.p>
 
           {/* BUTTONS */}
-          <div
+          <motion.div
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ delay: 0.3 }}
+            viewport={{ once: true }}
             className="
               mt-10
               flex
@@ -115,7 +131,7 @@ export default function Hero() {
           >
 
             <a
-              href="https://wa.me/62895700910953?text=Halo%20Admin%20Saya%20ingin%20order%20layanan%20HomeTV"
+              href="https://wa.me/6281234567890?text=Halo%20Admin%20Saya%20ingin%20order%20layanan%20HomeTV"
               target="_blank"
               rel="noopener noreferrer"
               className="
@@ -155,7 +171,7 @@ export default function Hero() {
               Pelajari Lebih Lanjut
             </a>
 
-          </div>
+          </motion.div>
         </div>
 
         {/* RIGHT IMAGE */}
@@ -173,7 +189,11 @@ export default function Hero() {
           />
 
           {/* IMAGE */}
-          <div
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.8 }}
+            viewport={{ once: true }}
             className="relative z-10"
           >
 
@@ -191,7 +211,7 @@ export default function Hero() {
               "
             />
 
-          </div>
+          </motion.div>
         </div>
       </div>
     </section>
