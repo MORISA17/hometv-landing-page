@@ -4,12 +4,14 @@ import Features from '@/components/Features'
 import Pricing from '@/components/Pricing'
 import FAQ from '@/components/FAQ'
 import Footer from '@/components/Footer'
+import Showcase from '@/components/Showcase'
 
 export default function HomePage() {
   return (
     <main id="top" className="overflow-x-hidden">
       <Navbar />
       <Hero />
+      <Showcase />
       <Features />
       <Pricing />
       <FAQ />

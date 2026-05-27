@@ -4,14 +4,18 @@ import Image from 'next/image'
 import { motion } from 'framer-motion'
 import { Download, MessageCircle } from 'lucide-react'
 
+
 export default function Hero() {
   return (
     <section
       id="home"
+      style={{ backgroundImage: "url('/images/bgpildun.png')" }}
       className="
         relative
         min-h-screen
-        bg-white
+        bg-cover
+        bg-center
+        h-center
         overflow-hidden
         pt-32
         md:pt-36
