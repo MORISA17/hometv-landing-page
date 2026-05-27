@@ -6,7 +6,7 @@ import {
 const pricingPlans = [
   {
     title: 'REGULER',
-    price: '10RB',
+    price: '25RB',
     duration: '1 Bulan',
     featured: false,
     whatsappMessage:
@@ -14,7 +14,7 @@ const pricingPlans = [
   },
   {
     title: 'BEST VALUE',
-    price: '70RB',
+    price: '150RB',
     duration: '1 Tahun',
     featured: true,
     badge: 'Bestseller',
@@ -23,7 +23,7 @@ const pricingPlans = [
   },
   {
     title: 'POPULAR',
-    price: '25RB',
+    price: '50RB',
     duration: '3 Bulan',
     featured: false,
     whatsappMessage:
@@ -31,7 +31,7 @@ const pricingPlans = [
   },
   {
     title: 'EXTENDED',
-    price: '40RB',
+    price: '100RB',
     duration: '6 Bulan',
     featured: false,
     whatsappMessage:

@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { MessageCircle } from 'lucide-react'
+import { Download, MessageCircle } from 'lucide-react'
 
 export default function Navbar() {
   return (

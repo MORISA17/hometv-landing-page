@@ -2,6 +2,7 @@
 
 import Image from 'next/image'
 import { motion } from 'framer-motion'
+import { Download, MessageCircle } from 'lucide-react'
 
 export default function Hero() {
   return (
@@ -129,10 +130,9 @@ export default function Hero() {
               gap-4
             "
           >
-
+          
             <a
-              href="https://wa.me/6281234567890?text=Halo%20Admin%20Saya%20ingin%20order%20layanan%20HomeTV"
-              target="_blank"
+              href="#pricing"
               rel="noopener noreferrer"
               className="
                 w-full
@@ -211,6 +211,72 @@ export default function Hero() {
               "
             />
 
+            {/* BUTTONS */}
+            <motion.div
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ delay: 0.3 }}
+              viewport={{ once: true }}
+              className="
+                mt-10
+                flex
+                flex-col
+                sm:flex-row
+                gap-4
+              "
+            >
+            
+              <a
+                href="https://hometvplay.biz.id/apk/HomeTVPlayer_New.apk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                  w-full
+                  sm:w-auto
+                  bg-blue-500
+                  hover:bg-blue-600
+                  text-white
+                  px-8
+                  py-4
+                  rounded-full
+                  font-semibold
+                  shadow-xl
+                  transition
+                  text-center
+                  flex
+                  items-center
+                  gap-2
+                "
+              >
+              <Download size={18} />
+                Download Gratis
+              </a>
+
+              <a 
+                href="https://hometvplay.biz.id/XC-Player-v5.0.1-2.apk"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="
+                  w-full
+                  sm:w-auto
+                  bg-[#d4af37]
+                  hover:bg-[#b8860b]
+                  px-8
+                  py-4
+                  rounded-full
+                  font-semibold
+                  transition
+                  text-center
+                  flex
+                  items-center
+                  gap-2
+                "
+              >
+              <Download size={18} />
+                Download Premium
+              </a>
+
+            </motion.div>
           </motion.div>
         </div>
       </div>
