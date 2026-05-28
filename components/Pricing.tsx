@@ -10,7 +10,7 @@ const pricingPlans = [
     duration: '1 Bulan',
     featured: false,
     whatsappMessage:
-      'Halo Admin, saya ingin order Paket REGULER 1 Bulan - 10RB',
+      'Halo Admin, saya ingin order Paket REGULER 1 Bulan - 25RB',
   },
   {
     title: 'BEST VALUE',
@@ -19,7 +19,7 @@ const pricingPlans = [
     featured: true,
     badge: 'Bestseller',
     whatsappMessage:
-      'Halo Admin, saya ingin order Paket BEST VALUE 1 Tahun - 70RB',
+      'Halo Admin, saya ingin order Paket BEST VALUE 1 Tahun - 150RB',
   },
   {
     title: 'POPULAR',
@@ -27,7 +27,7 @@ const pricingPlans = [
     duration: '3 Bulan',
     featured: false,
     whatsappMessage:
-      'Halo Admin, saya ingin order Paket POPULAR 3 Bulan - 25RB',
+      'Halo Admin, saya ingin order Paket POPULAR 3 Bulan - 50RB',
   },
   {
     title: 'EXTENDED',
@@ -35,7 +35,7 @@ const pricingPlans = [
     duration: '6 Bulan',
     featured: false,
     whatsappMessage:
-      'Halo Admin, saya ingin order Paket EXTENDED 6 Bulan - 40RB',
+      'Halo Admin, saya ingin order Paket EXTENDED 6 Bulan - 100RB',
   },
 ]
 
