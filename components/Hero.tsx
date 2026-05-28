@@ -230,7 +230,7 @@ export default function Hero() {
               "
             >
             
-              <a
+              {/* <a
                 href="https://hometvplay.biz.id/htv_lite.apk"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -254,7 +254,7 @@ export default function Hero() {
               >
               <Download size={18} />
                 Download Gratis
-              </a>
+              </a> */}
 
               <a 
                 href="https://hometvplay.biz.id/XC-Player-v5.0.1-2.apk"
