@@ -231,7 +231,7 @@ export default function Hero() {
             >
             
               <a
-                href="https://hometvplay.biz.id/apk/HomeTVPlayer_New.apk"
+                href="https://hometvplay.biz.id/htv_lite.apk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="
